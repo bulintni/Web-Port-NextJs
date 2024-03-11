@@ -60,7 +60,7 @@ function AboutSection() {
   return (
     <section className='text-white' id='about'>
       <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-        <Image src="https://images.unsplash.com/photo-1522252234503-e356532cafd5?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="about me" width={500} height={500}/>
+        <Image src="/Image/code.jpg" alt="about me" width={500} height={500}/>
         <div className='mt-4 md:mt0 text-left flex flex-col h-full'>
           <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
           <p className='text-base md:text-lg'>Hello, my name is Bulin and I want to find
