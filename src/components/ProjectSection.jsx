@@ -94,7 +94,7 @@ function ProjectSection() {
         name="App" 
         isSelected={tag === "App"}/>
       </div>
-      <div>{filteredProjects.map((project)=>(
+      <div className='lg:grid lg:gap-4 lg:grid-cols-3 md:grid md:gap-3 md:grid-cols-2 sm:flex sm:flex-col'>{filteredProjects.map((project)=>(
          <ProjectCard 
          key={project.id} 
          title={project.title} 
@@ -106,8 +106,10 @@ function ProjectSection() {
       ))}
       </div>
       <div className='flex flex-col'>
-      <h2 className='text-5xl font-bold border-t-2 mt-3 pt-3 text-center text-white'>My Other Project</h2>
-      <Link href = "https://github.com/bulintni/My-Portfolio.git" className='text-center text-2xl font-bold text-white mt-4 mb-8 md:mb-12 bg-sky-600 rounded-full px-5 py-5'>GitHub Link</Link>
+      <h2 className='text-5xl font-bold border-t-2 mt-3 pt-8 text-center text-white'>My Other Project</h2>
+      <div className='flex justify-center my-8'>
+        <Link href = "https://github.com/bulintni/My-Portfolio.git" className='text-center text-2xl font-bold lg:w-[50%] text-white mt-4 mb-8 md:mb-12 bg-sky-600 rounded-full px-5 py-5'>GitHub Link</Link>
+      </div>
       </div>
     </div>
   )
