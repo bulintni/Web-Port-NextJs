@@ -36,7 +36,7 @@ function HeroSection() {
                 </p>
                 {/* button download cv / Hire Me */}
                 <div>
-                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#2b5876] via-[#4e4376] to-[#2b5876] bg-white hover:bg-slate-200 text-white' ><Link href="https://drive.google.com/file/d/1nREMoLUOtwwQqGR1Lpz8gpu34Iy6L1og/view?usp=sharing">Download CV</Link></button>
+                    <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#2b5876] via-[#4e4376] to-[#2b5876] bg-white hover:bg-slate-200 text-white' ><Link href="https://drive.google.com/file/d/1C-oA3ef28E4vyvhH2Xlbe4XlQF3hon4l/view?usp=sharing">Download CV</Link></button>
                 </div>
             </div>
             <div className='col-span-5 place-self-center mt-10 lg:mt-0'>
