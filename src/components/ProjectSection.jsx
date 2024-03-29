@@ -108,7 +108,7 @@ function ProjectSection() {
       <div className='flex flex-col'>
       <h2 className='text-5xl font-bold border-t-2 mt-3 pt-8 text-center text-white'>My Other Project</h2>
       <div className='flex justify-center my-8'>
-        <Link href = "https://github.com/bulintni/My-Portfolio.git" className='text-center text-2xl font-bold lg:w-[50%] text-white mt-4 mb-8 md:mb-12 bg-sky-600 rounded-full px-5 py-5'>GitHub Link</Link>
+        <Link href = "https://github.com/bulintni/My-Portfolio-for-Frontend.git" className='text-center text-2xl font-bold lg:w-[50%] text-white mt-4 mb-8 md:mb-12 bg-sky-600 rounded-full px-5 py-5'>GitHub Link</Link>
       </div>
       </div>
     </div>
